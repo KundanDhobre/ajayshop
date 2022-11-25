@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "jquery.cookie": "^1.4.1"
+  }
+}
