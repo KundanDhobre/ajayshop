@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+        header,footer{
+            background: white url("./public/nature1.gif")scroll no-repeat bottom;
+            padding: 10px;
+            background-size: cover;
+            text-align: center;
+            color: black;
+        }
+        footer{
+            line-height: 10px;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+            
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            font-size: 18px;
+
+
+        }
+        nav ul li a{
+            list-style-type: none;
+            text-decoration: none;
+            color: azure;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background-color:greenyellow;}
+            nav ul li a.active{
+                background-color: red;
+            }
+            aside{
+                background-color: lightgray;
+                float: left;
+                width: 200px;
+                text-align: center;
+                height: 350px;
+                overflow-y: scroll;
+            }
+            aside ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+
+            }
+            aside ul li a{
+                text-decoration: none;
+                color: black;
+                display: block;
+                padding: 15px 25px;
+            }
+            aside ul li a:hover{
+                background-color: orangered;
+            }
+            section{
+                margin-left: 200px;
+                border-left: 2px solid gray;
+                padding: 10px;
+
+            }
+            details{
+                margin: 5px;
+                padding: 10px;
+                background-color:rgba(218, 232, 71, 0.842);
+                border-radius: 50px;
+            }
+            article{
+                background-color:blanchedalmond;
+                color: black;
+                padding: 10px;
+                border-radius: 50px;
+                
+            }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UI Technologies</h1>
+        <p>The Smart way of learning</p>
+    </header>
+    <!--Navigation bar-->
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+            <li>
+                <a href="#">Career</a>
+            </li>
+            <li>
+                <a href="#">Coarses</a>
+            </li>
+        </ul>
+    </nav>
+    <!--sidebar section-->
+    <aside>
+        <ul>
+            <li>
+                <a href="#">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">Javascript</a>
+            </li>
+            <li>
+                <a href="#jq">JQuery</a>
+            </li>
+            <li>
+                <a href="#">Ajax</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">Angular</a>
+            </li>
+            <li>
+                <a href="#">Typescript</a>
+            </li>
+        </ul>
+    </aside>
+    <!--main content-->
+    <section>
+        <details>
+        <summary id="home">HTML</summary>
+        
+            <h3>HTML</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+        </details>
+        <details>
+            <summary>CSS</summary>
+            
+                <h3>CSS</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+            </details>
+            <details>
+                <summary>JavaScript</summary>
+                
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                </details> <details>
+                    <summary >JQuery</summary>
+                    
+                        <h3>JQuery</h3>
+                        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                    </details>
+                    <details>
+                        <summary>Ajax</summary>
+                        
+                            <h3>Ajax</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                        </details>
+                        <details>
+                            <summary>Bootstrap</summary>
+                            
+                                <h3>Bootstrap</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                            </details>
+                            <details>
+                                <summary>Angular</summary>
+                                
+                                    <h3>Angular</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                                </details>
+                                <details>
+                                    <summary>TypeScript</summary>
+                                    
+                                        <h3>TypeSript</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sed praesentium nam, aliquam nisi nulla unde cumque cupiditate, placeat est quos, voluptate tenetur! Eius sint quibusdam libero temporibus, quas alias?</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos sit dicta recusandae sequi quam eaque accusantium a iusto, repudiandae ipsum excepturi nostrum architecto eligendi dolor minus animi error itaque.</p>
+                                    </details>
+                                    
+
+
+    </section>
+    <!--footer-->
+    <footer>
+
+<h2>Copyright &copy;2022 ,UI Technologies</h2>
+<p>All Right Reserved</p>
+<small>Developed and Maintained by Kundan Dhobre</small>
+    </footer>
+    
+</body>
+</html>
